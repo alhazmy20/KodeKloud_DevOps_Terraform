@@ -1,7 +1,7 @@
 # Kubernetes WebAPI Application
 
 This is a simple project created to showcase what I've learned while attending the DevOps Learning Path on KodeKloud.
-- The purpose of this project is to provision Kubernetes is to Deploy WebAPI Application using **Terraform**.
+- The purpose of this project is to Deploy Go WebAPI Application in Kubernetes using **Terraform**.
 
 ## Usage
 The following commands you need to execute it inside `Go-WebAPI-Application` directory.
