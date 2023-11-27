@@ -1,4 +1,4 @@
-# Kubernetes WebAPI Application
+# Kubernetes Go WebAPI Application
 
 This project is a simple showcase of skills developed during the DevOps Learning Path on KodeKloud. Its purpose is to deploy a Go WebAPI Application in Kubernetes using **Terraform**.
 
