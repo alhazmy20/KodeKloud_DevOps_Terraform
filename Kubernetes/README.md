@@ -1,23 +1,31 @@
 # Kubernetes WebAPI Application
 
-This is a simple project created to showcase what I've learned while attending the DevOps Learning Path on KodeKloud.
-- The purpose of this project is to Deploy Go WebAPI Application in Kubernetes using **Terraform**.
+This project is a simple showcase of skills developed during the DevOps Learning Path on KodeKloud. Its purpose is to deploy a Go WebAPI Application in Kubernetes using **Terraform**.
 
 ## Usage
-The following commands you need to execute it inside `Go-WebAPI-Application` directory.
-- Initialize terraform working directory and download the `Kubernetes` provider using the following command:
+To effectively use this project, follow these steps within the `Go-WebAPI-Application` directory:
+
+1. **Initialize Terraform:**
 ```bash
 terraform init
 ```
-- **Optional:** You can see the changes that terraform will apply before the provisioning using the following command:
+Initialize the Terraform working directory and download the Kubernetes provider.
+
+2. **(Optional) Preview Changes:**
 ```bash
 terraform plan
 ```
-- Apply the changes and provision the cluster using the following command:
+This step allows you to review the changes Terraform will apply before provisioning resources.
+
+3. **Apply Changes and Provision Resources:**
 ```bash
 terraform apply
 ```
-- You can delete all resources related to the cluster you created using the following command:
+Apply the changes and provision the Kubernetes resources.
+
+4. **Destroy All Resources:**
 ```bash
 terraform destroy
 ```
+Use this command to destroy all the resources created by Terraform.
+
