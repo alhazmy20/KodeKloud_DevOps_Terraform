@@ -17,7 +17,7 @@ terraform plan
 ```bash
 terraform apply
 ```
-You can delete all resources related to the cluster you created using the following command:
+- You can delete all resources related to the cluster you created using the following command:
 ```bash
 terraform destroy
 ```
